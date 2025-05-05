@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0084ff;
+  color: white;
+  padding: 20px 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.search-box {
+  width: 40%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.login-btn {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  background-color: #0b1066;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.menu li a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.banner img {
+  width: 100%;
+  height: 10px;
+  height: auto;
+}
+
+.products {
+  padding: 20px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #eee;
+}
+
+.price {
+  font-weight: bold;
+  color: green;
+}
+
+footer {
+  background-color: #000000;
+  padding: 20px;
+  margin-top: 40px;
+}
+button {
+  background-color: #4CAF50; /* Verde */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0011ff; /* Tom mais escuro de verde */
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+.out{
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+ 
+  
+}
+.izi{
+  background-color: #42424200;
+ 
+}
